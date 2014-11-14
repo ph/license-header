@@ -1,30 +1,23 @@
 # License::Header
 
-TODO: Write a gem description
+Simple way to add license header to your ruby source file.
 
-## Installation
+## Caveats
 
-Add this line to your application's Gemfile:
+Only work for ruby file and doesnt support updating yet.
+
 
 ```ruby
-gem 'license-header'
+license-header -l LICENSE.txt -t director
 ```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install license-header
-
-## Usage
-
-TODO: Write usage instructions here
+Dry run with -d
+```ruby
+license-header -l LICENSE.txt -t director -d
+```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/license-header/fork )
+1. Fork it ( https://github.com/ph/license-header/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
