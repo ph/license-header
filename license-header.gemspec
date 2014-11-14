@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name          = "license-header"
   spec.version       = LicenseHeader::VERSION
   spec.authors       = ["Pier-Hugues Pellerin"]
-  spec.email         = ["phpellerin@gmail.com"]
+  spec.email         = ["ph@heykimo.com"]
   spec.summary       = "Simple way to tag a directory with a specific opensource license"
   spec.description   = "Simple way to tag a directory with a specific opensource license"
   spec.homepage      = ""
