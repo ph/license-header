@@ -8,11 +8,11 @@ Only work for ruby file and doesnt support updating yet.
 
 
 ```ruby
-license-header -l LICENSE.txt -t director
+license-header -l LICENSE.txt -t directory
 ```
 Dry run with -d
 ```ruby
-license-header -l LICENSE.txt -t director -d
+license-header -l LICENSE.txt -t directory -d
 ```
 
 ## Contributing
